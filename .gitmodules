@@ -1,6 +1,6 @@
 [submodule "bundle/jedi-vim"]
-	path = /home/tliebscher/.vim/bundle/jedi-vim
-	url = git://github.com/davidhalter/jedi-vim.git
-[submodule "/home/tliebscher/.vim/bundle/colorschemes"]
-	path = /home/tliebscher/.vim/bundle/colorschemes
+	path = bundle/jedi-vim
+	url = https://github.com/davidhalter/jedi-vim.git
+[submodule "bundle/colorschemes"]
+	path = bundle/colorschemes
 	url = https://github.com/flazz/vim-colorschemes.git

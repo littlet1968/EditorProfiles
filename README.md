@@ -7,8 +7,8 @@ clone the repository like:
 
 Change into the directroy and copy/move the folders to the root of the home
 ~]$ cd EditorProfiles
-EditorProfiles]$ cp -rv .vim ~/
-EditorProfiles]$ cp -rv .emacs.d ~/
+EditorProfiles]$ cp -rv vim ~/.vim
+EditorProfiles]$ cp -rv emacs.d ~/.emacs.d
 
 For Vim create symbolic link to vimrc like
 ~]$ cd ~/

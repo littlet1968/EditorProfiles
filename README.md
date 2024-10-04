@@ -1,17 +1,21 @@
-# vimprofile
-My vim stuff  for use every where
+# EditorProfiles
+
+My settings for Vim and Emacs
 
 clone the repository like:
-~]$ git clone https://github.com/littlet1968/vimprofile.git
+~]$ git clone https://github.com/littlet1968/EditorProfiles.git
 
-rename the cloned folder vimprofile into .vim
-~]$ mv vimprofile .vim
+Change into the directroy and copy/move the folders to the root of the home
+~]$ cd EditorProfiles
+EditorProfiles]$ cp -rv .vim ~/
+EditorProfiles]$ cp -rv .emacs.d ~/
 
-create symbolic link to vimrc like
-~]$ ln -s ~/.vim/vimrc .vimrc
+For Vim create symbolic link to vimrc like
+~]$ cd ~/
+~]$ ln -s ~/.vim/vimrc .vimrc 
 
-and finally update all submodules with
-~]$ git submodule update --init --recursive
+And update all submodules with
+.vim]$ git submodule update --init --recursive
 
-enjoy the same settings every where
+
 
